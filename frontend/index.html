@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerPath AI - Smart Skill & Career Recommender</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 CareerPath AI</h1>
+            <p class="subtitle">Smart Skill & Career Recommender</p>
+        </header>
+
+        <div class="input-section">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="userInput" 
+                    placeholder="Enter your skills or target job role..."
+                    autocomplete="off"
+                >
+                <button id="recommendBtn" onclick="getRecommendations()">
+                    Get Recommendations
+                </button>
+            </div>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Analyzing your input...</p>
+        </div>
+
+        <div id="results" class="results"></div>
+
+        <div id="error" class="error hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
