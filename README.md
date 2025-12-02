@@ -109,9 +109,9 @@ npx live-server frontend
 ---
 
 ## 📸 Screenshots
-| Home Page | Recommendations |
-|------------|----------------|
-| ![Home Screenshot](assets/home.png) | ![Recommendation Screenshot](assets/result.png) |
+| Home Page | Recommendations |  Recommendations |
+|------------|----------------|----------------|
+| ![Home Screenshot](assets/result1.png) | ![Recommendation Screenshot](assets/result2.png) | ![Recommendation Screenshot](assets/result3.png) 
 
 ---
 
