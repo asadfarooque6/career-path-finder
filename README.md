@@ -1,4 +1,4 @@
-# 🧠 Career Path Finder — AI-Powered Skill & Career Recommendation App
+# 🧠 CareerPath — a Smart Skill & Career Recommender
 
 **Turn your skills into career growth.**  
 Career Path Finder helps users discover the *next best career opportunities* based on their current skills, interests, or job roles — using a **structured recommendation system** backed by **Firebase Firestore**.
